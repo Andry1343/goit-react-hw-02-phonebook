@@ -1,0 +1,47 @@
+.form_name {
+  max-width: 500px;
+  max-height: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.form_btn {
+  margin-left: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  /* display: inline-block; */
+  display: block;
+  font-family: 'Amazon Ember', sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #f7fafa;
+  border-color: #008296;
+}
+button:focus {
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
