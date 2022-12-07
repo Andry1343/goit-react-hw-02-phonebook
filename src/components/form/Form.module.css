@@ -1,40 +1,38 @@
-.form_name {
-  max-width: 500px;
-  max-height: 500px;
+.form {
+  max-width: 300px;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
+  text-align: left;
 
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
+.form_name_number_filter {
+  text-align: center;
+}
+
 .form_btn {
-  margin-left: 35px;
-  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
   margin-bottom: 30px;
 
   background-color: #fff;
   border: 1px solid #d5d9d9;
   border-radius: 8px;
   box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  font-family: 'Amazon Ember', sans-serif;
   box-sizing: border-box;
   color: #0f1111;
   cursor: pointer;
-  /* display: inline-block; */
   display: block;
-  font-family: 'Amazon Ember', sans-serif;
   font-size: 13px;
   line-height: 29px;
-  padding: 0 10px 0 11px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
   width: 100px;
+  padding: 0 10px 0 11px;
 }
 
 button:hover {
